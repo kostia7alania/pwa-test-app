@@ -1,3 +1,61 @@
 {
-    
+    "name": "Имя приложухи на заставке",
+    "short_name": "Крраткое название --под иконкой",
+    "start_url": "/index.html?----грузит при открытии",
+    "...": "...",
+    "scope": ".",
+    "скопы - ": "какие страницы включить в ПВА-опыт) точка - все)",
+    "...": "...",
+    "display": "standalone",
+    "дисплей - ": "должно-ли выглядеть как стдандартное приложение (standalone,fullscreen,minimal-ui,browser)",
+    "...": "...",
+    "background_color": "red",
+    "бекграунд_колор--": "фон при загрузке и на заставке ",
+    "...": "...",
+    "theme_color": "green",
+    "тзем_колор--": "фон хедера приложухи (header) и в таскманагере -цвет вкладки",
+    "...": "...",
+    "description": "Описание для юзеров ,,,,!!!!,,,",
+    "dir": "ltr",
+    "lang": "ru-RU",
+    "...": "...",
+    "orientation": "portrait-primary",
+    "ориентация  -- ": "ориентация - all, portrait,landscape",
+    "...": "...",
+    "icons": [{
+        "иконки - ": " для отображения на домашнем экране!",
+        "размер - ": "браузер сам выберет какой лучше для устройства!",
+        "src": "/src/images/icons/app-icon-48x48.png",
+        "type": "image/png",
+        "sezes": "48x48"
+    }, {
+        "src": "/src/images/icons/app-icon-96x96.png",
+        "type": "image/png",
+        "sezes": "96x96"
+    }, {
+        "src": "/src/images/icons/app-icon-144x144.png",
+        "type": "image/png",
+        "sezes": "144x144"
+    }, {
+        "src": "/src/images/icons/app-icon-192x192png",
+        "type": "image/png",
+        "sezes": "192x192"
+    }, {
+        "src": "/src/images/icons/app-icon-256x256.png",
+        "type": "image/png",
+        "sezes": "256x256"
+    }, {
+        "src": "/src/images/icons/app-icon-384x384.png",
+        "type": "image/png",
+        "sezes": "384x384"
+    }, {
+        "src": "/src/images/icons/app-icon-512x512.png",
+        "type": "image/png",
+        "sezes": "512x512"
+    }],
+    "related_applications": [{
+        "platform": "play",
+        "url": "https//play.google.com/store/apps/details?id=com.example.appl",
+        "id": "com.example.app"
+    }]
 }
