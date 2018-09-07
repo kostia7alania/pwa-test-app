@@ -1,9 +1,9 @@
 # Progressive Web Apps - Complete Guide
-This source code is part of Maximilian Schwarzmüller's "Progressive Web Apps - Complete Guide" course on udemy.com.
+Этот исходный код - часть курса от Maximilian Schwarzmüller'а "Progressive Web Apps - Complete Guide" на udemy.com.
 
-# How to Use
-You need [Node.js](https://nodejs.org) installed on your machine. Simply download the installer from [nodejs.org](https://nodejs.org) and go through the installation steps.
+# Как пользоваться
+Тебе нужен [Node.js](https://nodejs.org) установленный на твоей машине. 
 
-Once Node.js is installed, open your command prompt or terminal and **navigate into this project folder**. There, run `npm install` to install all required dependencies.
+Далее, открываешь cmd или терминал и  **перейди в папку этого проекта**. Затем вбей в cmd `npm install` или сокращенно - `npm i`  для установки необходимых зависимостей.
 
-Finally, run `npm start` to start the development server and visit [localhost:8080](http://localhost:8080) to see the running application.
+Финально - запуск проекта осуществляется командой - `npm start` для запуска дев. сервера, который будет доступен, как правило по адресу: [localhost:8080](http://localhost:8080).
