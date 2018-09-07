@@ -14,12 +14,20 @@ window.addEventListener('beforeinstallprompt', function (event) {
     return false;
 })
 
+
+
+
+
 var promise = new Promise(function (resolve, reject) {
     setTimeout(() => {
         resolve('резолв в таймауте');
         //reject({code:500, message: 'an error ocurred!'})
     }, 3000);
 })
+
+
+
+
 
 fetch('https://httpbin.org/ip')
     .then(e => {
@@ -28,6 +36,11 @@ fetch('https://httpbin.org/ip')
     })
     .then(e => console.log(e))
     .catch(e => console.log(e))
+
+
+
+
+
 
 
     var xhr = new XMLHttpRequest();
@@ -41,6 +54,10 @@ fetch('https://httpbin.org/ip')
     }
     xhr.send();
 
+
+
+
+
 fetch('https://httpbin.org/ip', {
         method: 'POST',
         headers: {
@@ -48,9 +65,9 @@ fetch('https://httpbin.org/ip', {
             'Accept': 'application/json'
         },
         mode: 'cors', // [ cors | no-cors ]
-        body: JSON.stringify({
+        body: {
             message: 'это данные в посте'
-        })
+        }
     })
     .then(e => {
         console.log(e);
