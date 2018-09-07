@@ -1,5 +1,4 @@
-# Progressive Web Apps - Complete Guide
-Этот исходный код - часть курса от Maximilian Schwarzmüller'а "Progressive Web Apps - Complete Guide" на udemy.com.
+# Progressive Web Apps - Полное Руководство
 
 # Как пользоваться
 Тебе нужен [Node.js](https://nodejs.org) установленный на твоей машине. 
